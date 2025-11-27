@@ -1,0 +1,19 @@
+[user]
+    name = Ben Soyka
+    email = "{{ .email }}"
+    signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIsngOWN1/U11Ow99X4k+yA2znxfJPjDGXFqU9/kwL/4
+
+[commit]
+    gpgsign = true
+
+[init]
+    defaultBranch = main
+
+[gpg]
+    format = ssh
+
+[gpg "ssh"]
+    program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+
+[core]
+    excludesfile = "{{ .chezmoi.homeDir }}/.config/git/ignore"

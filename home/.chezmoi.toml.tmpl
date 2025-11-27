@@ -1,0 +1,14 @@
+{{- $email := promptString "Git email address" }}
+
+encryption = "age"
+
+[age]
+identity = "~/age-key.txt"
+symmetric = true
+
+[data]
+email = "{{ $email }}"
+
+[edit]
+command = "code"
+args = ["--wait"]
