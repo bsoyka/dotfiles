@@ -1,0 +1,12 @@
+[env]
+
+[settings]
+idiomatic_version_file_enable_tools = ["python"]
+python.uv_venv_auto = true
+
+[tools]
+"pipx:pre-commit" = "latest"
+"pipx:ruff" = "latest"
+"pipx:xxh-xxh" = "latest"
+python = "latest"
+uv = "latest"
