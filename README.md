@@ -28,7 +28,7 @@ sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply bsoyka
 | File path | Description |
 |---|---|
 | [`.config/git/ignore`](home/dot_config/git/ignore) | Global Git ignore list |
-| [`.ssh/config`](home/private_dot_ssh/config) | SSH configuration, including aliases and key agent |
+| [`.ssh/config`](home/private_dot_ssh/encrypted_config.age) | SSH configuration, including aliases and key agent (encrypted) |
 | [`.ssh/known_hosts`](home/private_dot_ssh/encrypted_private_known_hosts.age) | Known SSH host identities (encrypted) |
 | [`.gitconfig`](home/dot_gitconfig.tmpl) | Configuration options for Git |
 
