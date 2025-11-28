@@ -7,6 +7,7 @@ python.uv_venv_auto = true
 [tools]
 "pipx:pre-commit" = "latest"
 "pipx:ruff" = "latest"
+"pipx:tldr" = "latest"
 "pipx:xxh-xxh" = "latest"
 python = "latest"
 uv = "latest"
