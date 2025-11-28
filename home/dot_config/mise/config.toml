@@ -5,10 +5,12 @@ idiomatic_version_file_enable_tools = ["python"]
 python.uv_venv_auto = true
 
 [tools]
+java = "openjdk-25"
 node = "25"
 "pipx:pre-commit" = "latest"
 "pipx:ruff" = "latest"
 "pipx:tldr" = "latest"
 "pipx:xxh-xxh" = "latest"
 python = "latest"
+rust = "latest"
 uv = "latest"
