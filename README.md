@@ -32,6 +32,7 @@ sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply bsoyka
 | [`.config/mise/config.toml`](home/dot_config/mise/config.toml) | `mise` configuration |
 | [`.ssh/config`](home/private_dot_ssh/encrypted_config.age) | SSH configuration, including aliases and key agent (encrypted) |
 | [`.ssh/known_hosts`](home/private_dot_ssh/encrypted_private_known_hosts.age) | Known SSH host identities (encrypted) |
+| [`Brewfile`](home/Brewfile) | Things to install with Homebrew |
 | [`.gitconfig`](home/dot_gitconfig.tmpl) | Configuration options for Git |
 
 ## Explanation of scripts
@@ -41,3 +42,7 @@ sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply bsoyka
 This script runs once on Mac devices to symlink the 1Password SSH agent to its
 more common Linux location, making SSH configuration simpler to manage across
 both platforms.
+
+### [Brewfile updates](home/.chezmoiscripts/run_onchange_brewfile.sh.tmpl)
+
+This script runs when the `Brewfile` changes, syncing its updates with Homebrew.

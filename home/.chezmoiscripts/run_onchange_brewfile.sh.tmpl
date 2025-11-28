@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Use a hash of the brewfile to see when it changes
+# {{ output "md5sum" (joinPath .chezmoi.homeDir "Brewfile") }}
+
+# Only run on macOS
+if [ "{{ .chezmoi.os }}" != "darwin" ]; then
+  exit 0
+fi
+
+brew bundle --file="{{ .chezmoi.homeDir }}/Brewfile"
+brew bundle cleanup --file="{{ .chezmoi.homeDir }}/Brewfile" --force
