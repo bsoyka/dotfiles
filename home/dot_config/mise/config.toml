@@ -5,6 +5,8 @@ idiomatic_version_file_enable_tools = ["python"]
 python.uv_venv_auto = true
 
 [tools]
+1password = "latest"
+github-cli = "latest"
 java = "openjdk-25"
 node = "25"
 "pipx:pre-commit" = "latest"
@@ -14,3 +16,15 @@ node = "25"
 python = "latest"
 rust = "latest"
 uv = "latest"
+cloudflared = "latest"
+aws-cli = { version = "latest", symlink_bins = "true" }
+jq = "latest"
+act = "latest"
+age = "latest"
+bat = "latest"
+fzf = "latest"
+lazygit = "latest"
+just = "latest"
+direnv = "latest"
+opam = "latest"
+eza = "latest"
