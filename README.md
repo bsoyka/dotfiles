@@ -36,7 +36,7 @@ sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply bsoyka
 
 ## Explanation of scripts
 
-### [1Password agent symlink](home/run_once_1password_agent_symlink.sh.tmpl)
+### [1Password agent symlink](home/.chezmoiscripts/run_once_1password_agent_symlink.sh.tmpl)
 
 This script runs once on Mac devices to symlink the 1Password SSH agent to its
 more common Linux location, making SSH configuration simpler to manage across
