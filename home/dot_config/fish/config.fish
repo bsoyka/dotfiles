@@ -1,5 +1,7 @@
 set PATH $PATH /Users/bsoyka/.local/bin
 
+source ~/.config/fish/secrets.fish
+
 direnv hook fish | source
 
 zoxide init fish | source
