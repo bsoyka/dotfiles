@@ -60,6 +60,15 @@ cask "tor-browser"
 cask "zoom"
 cask "zotero"
 
+mas "1Password for Safari", id: 1569813296
+mas "Amphetamine", id: 937984704
+mas "Crouton", id: 1461650987
+mas "Deliveries", id: 290986013
+mas "Flighty", id: 1358823008
+mas "HP Smart", id: 1474276998
+mas "Notability", id: 360593530
+mas "TestFlight", id: 899247664
+
 vscode "4ops.terraform"
 vscode "aaron-bond.better-comments"
 vscode "adpyke.codesnap"
