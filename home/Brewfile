@@ -4,13 +4,11 @@
 # TODO: IntelliJ IDEs
 
 tap "bsoyka/extras"
-tap "dopplerhq/cli"
-tap "homebrew/services"
 tap "nrlquaker/createzap"
 
 brew "chezmoi"
 brew "cloc"
-brew "dopplerhq/cli/doppler"
+brew "doppler"
 brew "enchant"
 brew "exiv2"
 brew "fish"
