@@ -1,6 +1,5 @@
 # TODO: UMN AnyConnect / Cisco Secure Client: https://it.umn.edu/services-technologies/virtual-private-network-vpn
 # TODO: Cricut Design Space: https://design.cricut.com/
-# TODO: Huggle: https://github.com/huggle/huggle3-qt-lx/releases
 # TODO: IntelliJ IDEs
 
 tap "bsoyka/extras"
@@ -48,6 +47,7 @@ cask "fantastical"
 cask "github"
 cask "gpg-suite"
 cask "grammarly-desktop"
+cask "huggle" # from bsoyka/extras
 cask "imageoptim"
 cask "iterm2"
 cask "keybase"
