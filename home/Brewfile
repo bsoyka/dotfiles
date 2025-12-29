@@ -32,6 +32,7 @@ brew "xz"
 brew "zlib"
 
 cask "1password"
+cask "across-lite" # from bsoyka/extras
 cask "adobe-creative-cloud"
 cask "affinity"
 cask "altos" # from bsoyka/extras
