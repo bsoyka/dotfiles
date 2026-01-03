@@ -28,6 +28,7 @@ brew "thefuck"
 brew "tmux"
 brew "tree"
 brew "typst"
+brew "xan"
 brew "xz"
 brew "zlib"
 
