@@ -1,1 +1,5 @@
-**/.DS_Store
+# macOS folder data
+.DS_Store
+
+# Private mise config
+mise.private.toml
