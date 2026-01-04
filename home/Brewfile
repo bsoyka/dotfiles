@@ -5,48 +5,35 @@
 tap "bsoyka/extras"
 tap "nrlquaker/createzap"
 
-brew "age"
-brew "bat"
-brew "chezmoi"
-brew "cloc"
-brew "cloudflared"
-brew "direnv"
-brew "doppler"
-brew "enchant"
-brew "exiv2"
-brew "eza"
-brew "fd"
-brew "fish"
-brew "fzf"
-brew "gawk"
-brew "gh"
-brew "git"
-brew "glow"
-brew "gnupg"
-brew "httpie"
-brew "hyperfine"
-brew "jq"
-brew "lazygit"
-brew "libb2"
-brew "libheif"
-brew "mas"
-brew "mise"
-brew "openssl@3"
-brew "ripgrep"
-brew "scc"
-brew "socat"
-brew "tailscale"
-brew "thefuck"
-brew "tlrc"
-brew "topgrade"
-brew "tree"
-brew "uv"
-brew "watchexec"
-brew "xan"
-brew "xxh"
-brew "xz"
-brew "zlib"
-brew "zoxide"
+brew "age"           # encryption
+brew "bat"           # file viewer (cat alternative)
+brew "chezmoi"       # dotfile manager
+brew "cloc"          # count lines of code
+brew "direnv"        # environment variable automation
+brew "eza"           # file structure viewer (ls alternative)
+brew "fd"            # find alternative
+brew "fish"          # shell
+brew "fzf"           # fuzzy finder
+brew "gh"            # GitHub interface
+brew "git"           # version control
+brew "glow"          # Markdown previewer
+brew "gnupg"         # OpenPGP implementation
+brew "httpie"        # curl alternative
+brew "hyperfine"     # benchmarking tool
+brew "jq"            # JSON query tool
+brew "lazygit"       # visual git interface
+brew "mas"           # Mac apps in Brewfile
+brew "mise"          # tool version manager
+brew "ripgrep"       # search tool (grep alternative)
+brew "tailscale"     # WireGuard platform
+brew "thefuck"       # command fixer
+brew "tlrc"          # tldr search
+brew "topgrade"      # mass upgrade tool
+brew "tree"          # directory tree viewer
+brew "uv"            # Python package and project manager
+brew "xan"           # CSV tool
+brew "xxh"           # send config over SSH
+brew "zoxide"        # navigation shortcut tool
 
 cask "1password"
 cask "1password-cli"
