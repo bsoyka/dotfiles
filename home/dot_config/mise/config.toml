@@ -3,26 +3,3 @@
 [settings]
 idiomatic_version_file_enable_tools = ["python"]
 python.uv_venv_auto = true
-
-[tools]
-1password = "latest"
-age = "latest"
-bat = "latest"
-cloudflared = "latest"
-direnv = "latest"
-doppler = "latest"
-eza = "latest"
-fd = "latest"
-fzf = "latest"
-github-cli = "latest"
-glow = "latest"
-hyperfine = "latest"
-jq = "latest"
-lazygit = "latest"
-ripgrep = "latest"
-tlrc = "latest"
-uv = "latest"
-watchexec = "latest"
-xxh = "latest"
-zoxide = "latest"
-"pipx:topgrade" = "latest"
