@@ -22,6 +22,7 @@ brew "httpie"        # curl alternative
 brew "hyperfine"     # benchmarking tool
 brew "jq"            # JSON query tool
 brew "lazygit"       # visual git interface
+brew "make"          # compilation recipe tool
 brew "mas"           # Mac apps in Brewfile
 brew "mise"          # tool version manager
 brew "ripgrep"       # search tool (grep alternative)
@@ -31,6 +32,7 @@ brew "tlrc"          # tldr search
 brew "topgrade"      # mass upgrade tool
 brew "tree"          # directory tree viewer
 brew "uv"            # Python package and project manager
+brew "wget"          # internet file retriever
 brew "xan"           # CSV tool
 brew "xxh"           # send config over SSH
 brew "zoxide"        # navigation shortcut tool
@@ -78,6 +80,8 @@ cask "vb-cable"
 cask "visual-studio-code"
 cask "zoom"
 cask "zotero"
+
+cask "font-fira-code-nerd-font"
 
 mas "1Password for Safari", id: 1569813296
 mas "Amphetamine", id: 937984704
