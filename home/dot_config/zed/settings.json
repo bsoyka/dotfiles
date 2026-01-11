@@ -25,6 +25,7 @@
   "soft_wrap": "editor_width",
   "sticky_scroll": { "enabled": true },
   "project_panel": { "sticky_scroll": false },
+  "snippet_sort_order": "top",
   "auto_install_extensions": {
     "astro": true,
     "catppuccin-blur": true, // Theme
@@ -42,6 +43,7 @@
     "latex": true,
     "make": true,
     "perplexity": true,
+    "python-snippets": true,
     "ssh-config": true,
     "svelte": true,
     "terraform": true,
