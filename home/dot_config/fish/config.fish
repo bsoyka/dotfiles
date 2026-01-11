@@ -2,6 +2,8 @@ fish_add_path ~/.local/bin
 
 source ~/.config/fish/secrets.fish
 
+set -gx EDITOR 'zed --wait'
+
 # ----- SET UP TOOLS -----
 direnv hook fish | source
 zoxide init fish | source
