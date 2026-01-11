@@ -6,6 +6,7 @@ tap "bsoyka/extras"
 tap "nrlquaker/createzap"
 
 brew "age"           # encryption
+brew "awscli"        # Amazon Web Services CLI
 brew "bat"           # file viewer (cat alternative)
 brew "chezmoi"       # dotfile manager
 brew "cloc"          # count lines of code
