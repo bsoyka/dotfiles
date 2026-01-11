@@ -12,15 +12,28 @@
   "buffer_font_family": "JetBrains Mono",
   "buffer_font_size": 14,
   "base_keymap": "JetBrains",
-  "theme": "Snazzy Theme",
-  "icon_theme": "Catppuccin Macchiato",
+  "theme": {
+    "mode": "system",
+    "dark": "Catppuccin Mocha (Blur)",
+    "light": "Catppuccin Latte (Blur)",
+  },
+  "icon_theme": {
+    "mode": "system",
+    "dark": "Catppuccin Mocha",
+    "light": "Catppuccin Latte",
+  },
   "soft_wrap": "editor_width",
   "sticky_scroll": { "enabled": true },
+  "project_panel": { "sticky_scroll": false },
   "auto_install_extensions": {
     "astro": true,
+    "catppuccin-blur": true, // Theme
     "catppuccin-icons": true, // Icon theme
+    "codebook": true, // Spellcheck
+    "csv": true,
     "docker-compose": true,
     "dockerfile": true,
+    "emmet": true,
     "env": true,
     "fish": true,
     "git-firefly": true,
@@ -28,10 +41,13 @@
     "just": true,
     "latex": true,
     "make": true,
-    "snazzy": true, // Theme
+    "perplexity": true,
+    "ssh-config": true,
     "svelte": true,
     "terraform": true,
     "toml": true,
+    "typst": true,
+    "unocss": true,
   },
   "lsp": {
     "terraform-ls": {
