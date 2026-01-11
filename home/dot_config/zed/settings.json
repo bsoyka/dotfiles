@@ -1,0 +1,74 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "ui_font_family": ".ZedSans",
+  "ui_font_size": 14,
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_size": 14,
+  "base_keymap": "JetBrains",
+  "theme": "Snazzy Theme",
+  "icon_theme": "Catppuccin Macchiato",
+  "soft_wrap": "editor_width",
+  "sticky_scroll": { "enabled": true },
+  "auto_install_extensions": {
+    "astro": true,
+    "catppuccin-icons": true, // Icon theme
+    "docker-compose": true,
+    "dockerfile": true,
+    "env": true,
+    "fish": true,
+    "git-firefly": true,
+    "ini": true,
+    "just": true,
+    "latex": true,
+    "make": true,
+    "snazzy": true, // Theme
+    "svelte": true,
+    "terraform": true,
+    "toml": true,
+  },
+  "lsp": {
+    "terraform-ls": {
+      "initialization_options": {
+        "experimentalFeatures": {
+          "prefillRequiredFields": true,
+        },
+      },
+    },
+  },
+  "languages": {
+    "Python": {
+      "language_servers": [
+        // Disable basedpyright and enable Ty, and otherwise
+        // use the default configuration.
+        "ty",
+        "!basedpyright",
+        "...",
+      ],
+    },
+  },
+  "file_types": {
+    "Dockerfile": ["Dockerfile.*"],
+    "Git Attributes": ["**/{git,.git,.git/info}/attributes"],
+    "Git Config": [
+      "*.gitconfig",
+      "**/{git,.git/modules,.git/modules/*}/config",
+    ],
+    "Git Ignore": ["**/{git,.git}/ignore", "**/.git/info/exclude"],
+  },
+  "terminal": {
+    "env": {
+      "GIT_EDITOR": "zed --wait",
+    },
+  },
+  "calls": {
+    "mute_on_join": true,
+  },
+  "auto_update": false, // Managed by Homebrew
+}

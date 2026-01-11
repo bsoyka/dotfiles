@@ -54,12 +54,13 @@ cask "comet"
 cask "discord"
 cask "fantastical"
 cask "forklift"
+cask "ghostty"
 cask "github"
 cask "gpg-suite"
 cask "grammarly-desktop"
 cask "huggle" # from bsoyka/extras
 cask "imageoptim"
-cask "iterm2"
+cask "iterm2"  # TODO: remove in favor of Ghostty
 cask "keybase"
 cask "label-live"
 cask "logi-options+"
@@ -79,10 +80,12 @@ cask "todoist-app"
 cask "topaz-photo"
 cask "vb-cable"
 cask "visual-studio-code"
+cask "zed"
 cask "zoom"
 cask "zotero"
 
 cask "font-fira-code-nerd-font"
+cask "font-jetbrains-mono"
 
 mas "1Password for Safari", id: 1569813296
 mas "Amphetamine", id: 937984704
