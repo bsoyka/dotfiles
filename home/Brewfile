@@ -1,6 +1,5 @@
 # TODO: UMN AnyConnect / Cisco Secure Client: https://it.umn.edu/services-technologies/virtual-private-network-vpn
 # TODO: Cricut Design Space: https://design.cricut.com/
-# TODO: IntelliJ IDEs
 
 tap "bsoyka/extras"
 tap "nrlquaker/createzap"
@@ -54,14 +53,11 @@ cask "cloudmounter"
 cask "comet"
 cask "discord"
 cask "fantastical"
-cask "forklift"
 cask "ghostty"
 cask "github"
 cask "gpg-suite"
 cask "grammarly-desktop"
 cask "huggle" # from bsoyka/extras
-cask "imageoptim"
-cask "iterm2"  # TODO: remove in favor of Ghostty
 cask "keybase"
 cask "label-live"
 cask "logi-options+"
@@ -79,8 +75,6 @@ cask "spotify"
 cask "tailscale-app"
 cask "todoist-app"
 cask "topaz-photo"
-cask "vb-cable"
-cask "visual-studio-code"
 cask "zed"
 cask "zoom"
 cask "zotero"
@@ -96,19 +90,3 @@ mas "Flighty", id: 1358823008
 mas "HP Smart", id: 1474276998
 mas "Notability", id: 360593530
 mas "TestFlight", id: 899247664
-
-vscode "aaron-bond.better-comments"
-vscode "astro-build.astro-vscode"
-vscode "editorconfig.editorconfig"
-vscode "gerrythemes.gerrythemes"
-vscode "github.vscode-github-actions"
-vscode "johnpapa.vscode-peacock"
-vscode "marvhen.reflow-markdown"
-vscode "myriad-dreamin.tinymist"
-vscode "redhat.vscode-yaml"
-vscode "skellock.just"
-vscode "svelte.svelte-vscode"
-vscode "tamasfe.even-better-toml"
-vscode "tomoki1207.pdf"
-vscode "ue.alphabetical-sorter"
-vscode "yzhang.markdown-all-in-one"
