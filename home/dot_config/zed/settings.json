@@ -51,6 +51,11 @@
     "unocss": true,
   },
   "lsp": {
+    "clangd": {
+      "binary": {
+        "path": "/opt/homebrew/opt/llvm/bin/clangd",
+      },
+    },
     "terraform-ls": {
       "initialization_options": {
         "experimentalFeatures": {
