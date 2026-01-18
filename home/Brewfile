@@ -22,6 +22,7 @@ brew "httpie"        # curl alternative
 brew "hyperfine"     # benchmarking tool
 brew "jq"            # JSON query tool
 brew "lazygit"       # visual git interface
+brew "llvm"          # compiler infrastructure
 brew "make"          # compilation recipe tool
 brew "mas"           # Mac apps in Brewfile
 brew "mise"          # tool version manager
