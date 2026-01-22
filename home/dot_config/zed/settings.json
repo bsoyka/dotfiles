@@ -14,8 +14,8 @@
   "base_keymap": "JetBrains",
   "theme": {
     "mode": "system",
-    "dark": "Catppuccin Mocha (Blur)",
-    "light": "Catppuccin Latte (Blur)",
+    "dark": "Catppuccin Mocha",
+    "light": "Catppuccin Latte",
   },
   "icon_theme": {
     "mode": "system",
@@ -27,7 +27,7 @@
   "snippet_sort_order": "top",
   "auto_install_extensions": {
     "astro": true,
-    "catppuccin-blur": true, // Theme
+    "catppuccin": true, // Theme
     "catppuccin-icons": true, // Icon theme
     "codebook": true, // Spellcheck
     "csv": true,
