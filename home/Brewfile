@@ -83,6 +83,7 @@ cask "zoom"
 cask "zotero"
 
 cask "font-fira-code-nerd-font"
+cask "ibm-plex-sans"
 cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 
