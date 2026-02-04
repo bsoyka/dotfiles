@@ -58,6 +58,7 @@ cask "discord"
 cask "fantastical"
 cask "ghostty"
 cask "github"
+cask "gnucash"
 cask "gpg-suite"
 cask "grammarly-desktop"
 cask "huggle" # from bsoyka/extras
