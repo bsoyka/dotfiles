@@ -32,6 +32,7 @@ disable = [
     "jetbrains_rustrover",
     "jetbrains_toolbox",
     "jetbrains_webstorm",
+    "pnpm",
     "ruby_gems",
     "tlmgr",
 ]
