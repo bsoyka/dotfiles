@@ -3,6 +3,7 @@
 
 # Private mise config
 mise.private.toml
+mise.local.toml
 
 # JetBrains IDEs
 .idea/
