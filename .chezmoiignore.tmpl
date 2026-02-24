@@ -1,0 +1,6 @@
+{{- if ne .chezmoi.os "darwin" -}}
+# On non-MacOS systems, ignore everything except a few files
+*
+!.gitconfig
+!.config/git/ignore
+{{- end -}}

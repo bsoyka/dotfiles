@@ -12,8 +12,10 @@
 [gpg]
     format = ssh
 
+{{ if eq .chezmoi.os "darwin" }}
 [gpg "ssh"]
     program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+{{ end }}
 
 [core]
     excludesfile = "{{ .chezmoi.homeDir }}/.config/git/ignore"
