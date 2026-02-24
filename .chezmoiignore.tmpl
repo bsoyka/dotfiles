@@ -1,6 +1,5 @@
-{{- if ne .chezmoi.os "darwin" -}}
-# On non-MacOS systems, ignore everything except a few files
-*
-!.gitconfig
-!.config/git/ignore
-{{- end -}}
+{{- if ne .chezmoi.os "darwin" }}
+Brewfile
+.chezmoiscripts/run_once_1password_agent_symlink.sh.tmpl
+.chezmoiscripts/run_onchange_brewfile.sh.tmpl
+{{- end }}
