@@ -59,11 +59,13 @@
     "unocss": true,
   },
   "lsp": {
+{{- if eq .chezmoi.os "darwin" }}
     "clangd": {
       "binary": {
         "path": "/opt/homebrew/opt/llvm/bin/clangd",
       },
     },
+{{- end }}
     "terraform-ls": {
       "initialization_options": {
         "experimentalFeatures": {
@@ -100,5 +102,5 @@
   "calls": {
     "mute_on_join": true,
   },
-  "auto_update": false, // Managed by Homebrew
+  "auto_update": {{ if eq .chezmoi.os "darwin" }}false{{ else }}true{{ end }},{{ if eq .chezmoi.os "darwin" }} // Managed by Homebrew{{ end }}
 }
