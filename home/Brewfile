@@ -27,6 +27,7 @@ brew "llvm"          # compiler infrastructure
 brew "make"          # compilation recipe tool
 brew "mas"           # Mac apps in Brewfile
 brew "mise"          # tool version manager
+brew "mole"          # storage cleaning tool
 brew "ripgrep"       # search tool (grep alternative)
 brew "tailscale"     # WireGuard platform
 brew "thefuck"       # command fixer
@@ -41,7 +42,6 @@ brew "zoxide"        # navigation shortcut tool
 
 cask "1password"
 cask "1password-cli"
-cask "across-lite" # from bsoyka/extras
 cask "adobe-creative-cloud"
 cask "affinity"
 cask "altos" # from bsoyka/extras
@@ -65,15 +65,13 @@ cask "huggle" # from bsoyka/extras
 cask "keybase"
 cask "label-live"
 cask "logi-options+"
-cask "middleclick"
-cask "modrinth"
+cask "mactex"
 cask "obs"
 cask "obsidian"
 cask "openrocket"
 cask "orbstack"
 cask "parallels"
 cask "pingid"
-cask "prusaslicer"
 cask "raycast"
 cask "setapp"
 cask "shottr"
