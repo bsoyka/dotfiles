@@ -17,6 +17,9 @@ function sync-photos
     find $local_dir -name ".DS_Store" -delete
 
     echo "Backing up to AWS S3..."
+    set -lx LDFLAGS "-L/opt/homebrew/opt/expat/lib $LDFLAGS"
+    set -lx CPPFLAGS "-I/opt/homebrew/opt/expat/include $CPPFLAGS"
+    set -lx DYLD_LIBRARY_PATH "/opt/homebrew/opt/expat/lib:$DYLD_LIBRARY_PATH"
     aws s3 sync $local_dir $remote_dir
 
     echo "Sync complete!"
