@@ -22,6 +22,7 @@ brew "gnupg"         # OpenPGP implementation
 brew "googletest"    # Google Test framework
 brew "httpie"        # curl alternative
 brew "hyperfine"     # benchmarking tool
+brew "imagemagick"   # image processing
 brew "jq"            # JSON query tool
 brew "lazygit"       # visual git interface
 brew "llvm"          # compiler infrastructure
@@ -99,6 +100,7 @@ mas "1Password for Safari", id: 1569813296
 mas "Amphetamine", id: 937984704
 mas "Crouton", id: 1461650987
 mas "Deliveries", id: 290986013
+mas "Endel", id: 1346247457
 mas "Flighty", id: 1358823008
 mas "Goodnotes", id: 1444383602
 mas "HP Smart", id: 1474276998
