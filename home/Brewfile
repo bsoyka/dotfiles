@@ -19,15 +19,18 @@ brew "gh"            # GitHub interface
 brew "git"           # version control
 brew "glow"          # Markdown previewer
 brew "gnupg"         # OpenPGP implementation
+brew "googletest"    # Google Test framework
 brew "httpie"        # curl alternative
 brew "hyperfine"     # benchmarking tool
 brew "jq"            # JSON query tool
 brew "lazygit"       # visual git interface
 brew "llvm"          # compiler infrastructure
+brew "lsd"           # file structure viewer (ls alternative)
 brew "make"          # compilation recipe tool
 brew "mas"           # Mac apps in Brewfile
 brew "mise"          # tool version manager
 brew "mole"          # storage cleaning tool
+brew "rclone"        # cloud storage sync tool
 brew "ripgrep"       # search tool (grep alternative)
 brew "tailscale"     # WireGuard platform
 brew "thefuck"       # command fixer
@@ -45,26 +48,26 @@ cask "1password-cli"
 cask "adobe-creative-cloud"
 cask "affinity"
 cask "altos" # from bsoyka/extras
-cask "anki"
 cask "appcleaner"
 cask "audacity"
 cask "bambu-studio"
 cask "betterdisplay"
+cask "brave-browser"
 cask "cardhop"
 cask "cloudmounter"
-cask "comet"
 cask "devtoys"
 cask "discord"
-cask "fantastical"
 cask "ghostty"
 cask "github"
 cask "gnucash"
 cask "gpg-suite"
 cask "grammarly-desktop"
+cask "home-assistant"
 cask "huggle" # from bsoyka/extras
 cask "keybase"
 cask "label-live"
-cask "logi-options+"
+cask "launchcontrol"
+cask "libreoffice"
 cask "mactex"
 cask "obs"
 cask "obsidian"
@@ -76,11 +79,13 @@ cask "raycast"
 cask "setapp"
 cask "shottr"
 cask "signal"
+cask "skim"
 cask "slack"
 cask "spotify"
+cask "stats"
 cask "tailscale-app"
-cask "todoist-app"
 cask "topaz-photo"
+cask "windows-app"
 cask "zed"
 cask "zoom"
 cask "zotero"
@@ -95,6 +100,8 @@ mas "Amphetamine", id: 937984704
 mas "Crouton", id: 1461650987
 mas "Deliveries", id: 290986013
 mas "Flighty", id: 1358823008
+mas "Goodnotes", id: 1444383602
 mas "HP Smart", id: 1474276998
 mas "Notability", id: 360593530
 mas "TestFlight", id: 899247664
+mas "Things", id: 904280696
