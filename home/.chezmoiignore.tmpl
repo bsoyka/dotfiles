@@ -1,7 +1,11 @@
 {{- if regexMatch "C\\d{6}" .chezmoi.username }}
 # Work computer, only use specified files
 **
-!.copilot/*
+!.copilot
+!.copilot/mcp-config.json
+!AppData
+!AppData/Roaming
+!AppData/Roaming/Zed
 !AppData/Roaming/Zed/settings.json
 {{- else}}
 .copilot/*
