@@ -7,6 +7,14 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+{{- if regexMatch "C\\d{6}" .chezmoi.username }}
+  // Work computer
+  "disable_ai": true,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+{{- end }}
   "agent": {
     "default_profile": "write",
     "default_model": {
