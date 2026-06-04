@@ -1,4 +1,5 @@
 {{- $email := promptString "Git email address" }}
+{{- $work := regexMatch "C\\d{6}" .chezmoi.username }}
 
 encryption = "age"
 
@@ -10,5 +11,5 @@ symmetric = true
 email = "{{ $email }}"
 
 [edit]
-command = "zed"
+command = "{{ if $work }}code{{ else }}zed{{ end }}"
 args = ["--wait"]
