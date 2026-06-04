@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "ado": {
+      "type": "http",
+      "url": "https://mcp.dev.azure.com/tr-tax",
+      "headers": {},
+      "tools": [
+        "*"
+      ]
+    }
+  }
+}
