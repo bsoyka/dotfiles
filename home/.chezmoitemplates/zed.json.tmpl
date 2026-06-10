@@ -103,6 +103,16 @@
     "Git Ignore": ["**/{git,.git}/ignore", "**/.git/info/exclude"],
   },
   "terminal": {
+{{- if regexMatch "C\\d{6}" .chezmoi.username }}
+    // Work computer
+    "shell": {
+      "with_arguments": {
+        "program": "cmd.exe",
+        "args": ["/k", "C:\\apps\\cmder\\vendor\\init.bat"],
+        "title_override": null,
+      },
+    },
+{{- end }}
     "env": {
       "GIT_EDITOR": "zed --wait",
     },
