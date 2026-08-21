@@ -5,6 +5,10 @@ source ~/.config/fish/secrets.fish
 
 set -gx EDITOR 'zed --wait'
 
+set -gx GPG_TTY (tty)
+set -gx SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
+gpgconf --launch gpg-agent
+
 # ----- SET UP TOOLS -----
 direnv hook fish | source
 zoxide init fish | source
