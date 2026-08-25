@@ -1,0 +1,13 @@
+[[watch]]
+path = "~/Downloads"
+recursive = false
+
+[[rule]]
+name = "Clean Old Downloads"
+enabled = true
+
+[rule.condition]
+age_days_greater_than = 3
+
+[rule.action]
+type = "trash"
