@@ -28,6 +28,7 @@ brew "mise"          # tool version manager
 brew "mole"          # storage cleaning tool
 brew "pinentry-mac"  # pinentry for GPG
 brew "rclone"        # cloud storage sync tool
+brew "ricardodantas/tap/hazelnut"  # file manager
 brew "ripgrep"       # search tool (grep alternative)
 brew "tailscale"     # WireGuard platform
 brew "thefuck"       # command fixer
@@ -57,9 +58,9 @@ cask "discord"
 cask "ghostty"
 cask "github"
 cask "gnucash"
-cask "gpg-suite"
 cask "grammarly-desktop"
 cask "home-assistant"
+cask "ia-presenter"
 cask "keybase"
 cask "label-live"
 cask "launchcontrol"
@@ -80,7 +81,9 @@ cask "spotify"
 cask "stats"
 cask "tailscale-app"
 cask "topaz-photo"
+cask "vitalsource-bookshelf"
 cask "windows-app"
+cask "yubico-authenticator"
 cask "zed"
 cask "zoom"
 cask "zotero"
