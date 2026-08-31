@@ -2,8 +2,12 @@
 path = "~/Downloads"
 recursive = false
 
+[[watch]]
+path = "~/switchboard/uploaded"
+recursive = false
+
 [[rule]]
-name = "Clean Old Downloads"
+name = "Clean Old Files"
 enabled = true
 
 [rule.condition]
